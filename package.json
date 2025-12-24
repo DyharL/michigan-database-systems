@@ -1,0 +1,31 @@
+{
+  "name": "michigan-database-systems",
+  "version": "1.0.0",
+  "description": "Enterprise Relational Database Architecture & Automated Data Pipelines: Implementation of University of Michigan PY4E & PG4E Specializations with PostgreSQL 3NF Schemas, GIN Inverted Indexes, PageRank Graph Network, and D3.js Interactive Visualizer.",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "keywords": [
+    "university-of-michigan",
+    "postgresql",
+    "sqlite",
+    "pagerank",
+    "d3js",
+    "database-architecture",
+    "full-text-search",
+    "3nf",
+    "python"
+  ],
+  "author": "DyharL <249640645+DyharL@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
