@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University of Michigan Database &amp; Data Systems Suite · DyharL</title>
+  <meta name="description" content="Relational database architectures, full-text inverted indexes, PageRank graph network, and analytical SQL pipelines.">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-inner">
+      <a href="/" class="brand">
+        <span class="brand-badge">SPECIALIZATION 2024-2025</span>
+        <span class="brand-title">Michigan Database Systems</span>
+      </a>
+      <div class="header-links">
+        <a href="https://github.com/DyharL/michigan-database-systems" target="_blank" rel="noopener noreferrer" class="header-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          View Source Code
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-pill">
+        <span class="dot"></span>
+        <span>8/8 Specialization Projects · 100% Automated Test Coverage</span>
+      </div>
+      <h1>Relational Architectures &amp; Distributed Data Systems</h1>
+      <p>Data modeling curricula implementation featuring 3NF normalized schemas, GIN inverted indexes, D3.js PageRank force graphs, and analytical SQL pipelines.</p>
+
+      <div class="stats-bar">
+        <div class="stat-item">
+          <div class="stat-value">8</div>
+          <div class="stat-label">Core Modules</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">9/9</div>
+          <div class="stat-label">Passing Tests</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">3NF</div>
+          <div class="stat-label">Schema Norm</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">D3.js</div>
+          <div class="stat-label">Graph Traversal</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    <div class="project-grid">
+
+      <!-- Project 11: Mail Analytics -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 11</span>
+          <span class="project-badge">REGEX ANALYTICS</span>
+        </div>
+        <h3>Mail Log Analytics</h3>
+        <p>Text processing engine parsing mbox headers with regular expressions to compute sender frequency distributions and hourly messaging activity histograms.</p>
+        <div class="interactive-box">
+          <div class="input-row">
+            <button class="run-btn" style="width: 100%;" onclick="testMail()">Parse Log Corpus</button>
+          </div>
+          <div id="output-mail" class="output-box">Click above to analyze sample mbox stream</div>
+        </div>
+      </article>
+
+      <!-- Project 12: Web Crawler -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 12</span>
+          <span class="project-badge">WEB SCRAPING</span>
+        </div>
+        <h3>Web Scraper &amp; Geo Ingestion</h3>
+        <p>Automated crawler parsing document DOM structures, resolving relative hyperlink anchors, and parsing geographical coordinate payloads.</p>
+        <div class="interactive-box">
+          <div class="input-row">
+            <button class="run-btn" style="width: 100%;" onclick="testCrawler()">Run Scraper &amp; Geocoder</button>
+          </div>
+          <div id="output-crawler" class="output-box">Click above to execute crawl test</div>
+        </div>
+      </article>
+
+      <!-- Project 13: Music Relational Schema -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 13</span>
+          <span class="project-badge">SQL JOINS</span>
+        </div>
+        <h3>Relational Music Catalog</h3>
+        <p>Normalized multi-table schema (Artists, Albums, Genres, Tracks) with primary and foreign key constraints resolving complex analytical SQL JOINs.</p>
+        <div class="interactive-box">
+          <div class="input-row">
+            <button class="run-btn" style="width: 100%;" onclick="testMusic()">Execute Multi-Table JOIN</button>
+          </div>
+          <div id="output-music" class="output-box">Click above to query catalog with JOINs</div>
+        </div>
+      </article>
+
+      <!-- Project 14: PageRank Engine -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 14</span>
+          <span class="project-badge">MARKOV D3.JS</span>
+        </div>
+        <h3>PageRank &amp; Graph Visualizer</h3>
+        <p>Directed graph traversal engine implementing the random surfer algorithm with 0.85 damping factor and live D3.js force network animation.</p>
+        <div class="interactive-box">
+          <div id="graph-container"></div>
+          <div class="input-row" style="margin-top: 10px;">
+            <button class="run-btn" style="width: 100%;" onclick="testPageRank()">Re-run Markov Simulation</button>
+          </div>
+          <div id="output-pagerank" class="output-box">Initializing graph...</div>
+        </div>
+      </article>
+
+      <!-- Project 15: 3NF Cascading Architecture -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 15</span>
+          <span class="project-badge">3NF INTEGRITY</span>
+        </div>
+        <h3>3NF Schema &amp; Cascading Deletion</h3>
+        <p>Strict third normal form relational architecture enforcing foreign key constraints and automated cascading deletions (ON DELETE CASCADE).</p>
+        <div class="interactive-box">
+          <div class="input-row">
+            <button class="run-btn" style="width: 100%;" onclick="testCascade()">Trigger Cascade Delete</button>
+          </div>
+          <div id="output-cascade" class="output-box">Click above to test cascading deletion</div>
+        </div>
+      </article>
+
+      <!-- Project 16: Inverted Index Engine -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 16</span>
+          <span class="project-badge">GIN FULLTEXT</span>
+        </div>
+        <h3>Full-Text Inverted Index Search</h3>
+        <p>PostgreSQL GIN-style full-text search indexing engine with tokenization, stop-word elimination, and multi-word query ranking.</p>
+        <div class="interactive-box">
+          <div class="input-row">
+            <input id="input-index" type="text" class="code-input" value="postgresql indexing">
+            <button class="run-btn" onclick="testIndex()">Search</button>
+          </div>
+          <div id="output-index" class="output-box">Click Search to query inverted index</div>
+        </div>
+      </article>
+
+      <!-- Project 17: JSONB Document Store -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 17</span>
+          <span class="project-badge">POSTGRES JSONB</span>
+        </div>
+        <h3>JSONB Semi-Structured Store</h3>
+        <p>Hybrid relational and document modeling engine with deep attribute extraction operators and JSON subset containment queries (@>).</p>
+        <div class="interactive-box">
+          <div class="input-row">
+            <button class="run-btn" style="width: 100%;" onclick="testJsonb()">Query by Containment (@>)</button>
+          </div>
+          <div id="output-jsonb" class="output-box">Click above to query JSONB documents</div>
+        </div>
+      </article>
+
+      <!-- Project 18: Pure SQL TF-IDF Engine -->
+      <article class="project-card">
+        <div class="card-header">
+          <span class="project-num">PROJECT 18</span>
+          <span class="project-badge">SQL NLP</span>
+        </div>
+        <h3>Analytical TF-IDF Engine</h3>
+        <p>In-database Term Frequency - Inverse Document Frequency analytical ranking algorithm isolating distinctive vocabulary across document corpora.</p>
+        <div class="interactive-box">
+          <div class="input-row">
+            <button class="run-btn" style="width: 100%;" onclick="testTfidf()">Compute TF-IDF Scores</button>
+          </div>
+          <div id="output-tfidf" class="output-box">Click above to calculate TF-IDF weights</div>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Architected by <a href="https://github.com/DyharL" target="_blank" rel="noopener noreferrer">DyharL</a> · All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
