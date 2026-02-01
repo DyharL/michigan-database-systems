@@ -6,3 +6,4 @@ dist/
 .coverage/
 *.sqlite
 *.db
+__pycache__/
