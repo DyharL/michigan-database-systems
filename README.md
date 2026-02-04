@@ -1,13 +1,17 @@
 # University of Michigan Database & Data Systems Suite
 
-[![Tests](https://img.shields.io/badge/tests-9%2F9%20passing-38bdf8?style=flat-square)](https://github.com/DyharL/michigan-database-systems)
-[![Vulnerabilities](https://img.shields.io/badge/vulnerabilities-0-22c55e?style=flat-square)](https://github.com/DyharL/michigan-database-systems)
-[![Node](https://img.shields.io/badge/node-%3E%3D22.0.0-blue?style=flat-square)](https://nodejs.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/DyharL/michigan-database-systems/actions/workflows/ci.yml/badge.svg)](https://github.com/DyharL/michigan-database-systems/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776ab.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791.svg?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178c6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-000?logo=cloudflare)](https://michigan-database-systems.pages.dev)
 
 Implementation of the **University of Michigan Database & Data Systems Specialization** curricula (PY4E & PG4E).
 
-This repository features **8 complete database architecture modules** covering third normal form (3NF) relational models, full-text inverted indexing (GIN/GiST), iterative PageRank graph algorithms with D3.js force visualizers, and analytical SQL pipelines.
+This repository features canonical source implementations in **Python** (`python/`), analytical **SQL** schemas (`sql/`), and an interactive edge developer playground in **TypeScript** with a live D3.js force network visualizer.
+
+Live Interactive Showcase: [https://michigan-database-systems.pages.dev](https://michigan-database-systems.pages.dev)
 
 ---
 
