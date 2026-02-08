@@ -1,11 +1,12 @@
-# Configure GitHub Linguist to prioritize Python and SQL
-src/** linguist-detectable=false
-functions/** linguist-detectable=false
-dist/** linguist-detectable=false
-public/** linguist-detectable=false
-package.json linguist-detectable=false
-package-lock.json linguist-detectable=false
-tsconfig.json linguist-detectable=false
+# Vendored directories (excluded from language statistics)
+src/** linguist-vendored
+functions/** linguist-vendored
+dist/** linguist-vendored
+public/** linguist-vendored
+package.json linguist-vendored
+package-lock.json linguist-vendored
+tsconfig.json linguist-vendored
 
+# Canonical languages
 python/** linguist-detectable=true
 sql/** linguist-detectable=true
