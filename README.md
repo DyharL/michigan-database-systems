@@ -7,7 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178c6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-000?logo=cloudflare)](https://michigan-database-systems.pages.dev)
 
-Implementation of the **University of Michigan Database & Data Systems Specialization** curricula (PY4E & PG4E).
+Implementation of the **University of Michigan Database & Data Systems Specialization** curricula (PY4E & PG4E) in canonical **Python** and **PostgreSQL (SQL)**.
 
 This repository features canonical source implementations in **Python** (`python/`), analytical **SQL** schemas (`sql/`), and an interactive edge developer playground in **TypeScript** with a live D3.js force network visualizer.
 

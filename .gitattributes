@@ -1,9 +1,18 @@
-# Exclude all TypeScript and Web UI build files from repository language stats
-*.ts linguist-vendored
-*.js linguist-vendored
-*.html linguist-vendored
-*.css linguist-vendored
+# Ignore TypeScript, build outputs, and web assets from statistics
+src/** linguist-vendored=true
+functions/** linguist-vendored=true
+dist/** linguist-vendored=true
+public/** linguist-vendored=true
+**/*.ts linguist-detectable=false
+**/*.js linguist-detectable=false
+**/*.html linguist-detectable=false
+**/*.css linguist-detectable=false
+package.json linguist-vendored=true
+package-lock.json linguist-vendored=true
+tsconfig.json linguist-vendored=true
 
-# Explicitly detect canonical Python and SQL
-*.py linguist-detectable=true
-*.sql linguist-detectable=true
+# Canonical languages
+python/** linguist-detectable=true
+sql/** linguist-detectable=true
+**/*.py linguist-detectable=true
+**/*.sql linguist-detectable=true
