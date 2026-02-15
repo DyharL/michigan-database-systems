@@ -101,26 +101,9 @@ header {
   text-align: center;
 }
 
-.hero-pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--border);
-  padding: 6px 14px;
-  border-radius: 9999px;
-  font-size: 12px;
-  color: var(--text-secondary);
-  margin-bottom: 24px;
-}
 
-.hero-pill .dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--accent);
-  box-shadow: 0 0 8px var(--accent);
-}
+
+
 
 .hero h1 {
   font-size: clamp(32px, 5vw, 48px);
@@ -137,33 +120,13 @@ header {
   margin: 0 auto 32px;
 }
 
-.stats-bar {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  padding: 18px 0;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 48px;
-}
 
-.stat-item {
-  text-align: center;
-}
 
-.stat-value {
-  font-size: 22px;
-  font-weight: 700;
-  font-family: var(--font-mono);
-  color: var(--text-primary);
-}
 
-.stat-label {
-  font-size: 12px;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
+
+
+
+
 
 .project-grid {
   display: grid;
@@ -319,7 +282,5 @@ footer a:hover {
   .project-grid {
     grid-template-columns: 1fr;
   }
-  .stats-bar {
-    gap: 16px;
-  }
+  
 }
