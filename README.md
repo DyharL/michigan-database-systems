@@ -1,5 +1,8 @@
 # University of Michigan Database & Data Systems Suite
 
+**University of Michigan Specialization (PY4E & PG4E): 2025–2026.**
+
+
 Implementation of the **University of Michigan Database & Data Systems Specialization** curricula (PY4E & PG4E) in canonical **Python** and **PostgreSQL (SQL)**.
 
 This repository features canonical source implementations in **Python** (`python/`), analytical **SQL** schemas (`sql/`), and an interactive edge developer playground with a live D3.js force network visualizer.
